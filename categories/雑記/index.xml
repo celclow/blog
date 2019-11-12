@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>雑記 on weary site</title>
+    <link>https://blog.clow.dev/categories/%E9%9B%91%E8%A8%98/</link>
+    <description>Recent content in 雑記 on weary site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 06 Nov 2019 15:51:25 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.clow.dev/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ブログを移転しました</title>
+      <link>https://blog.clow.dev/posts/%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E7%A7%BB%E8%BB%A2%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Wed, 06 Nov 2019 15:51:25 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E7%A7%BB%E8%BB%A2%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>WordPress がキツくなってきたので。
+Hugo + GitHub Pages なので流行りっぽい作りになった。
+WordPress はしばらくそのままにしておいて、見られてる記事だけ移行する予定。 でも 2009 年からの記事を消すのはもったいないので、できれば全部移行したい。</description>
+    </item>
+    
+    <item>
+      <title>自動車保有関係手続のワンストップサービスを利用して車検証の住所変更を行った話</title>
+      <link>https://blog.clow.dev/posts/%E8%87%AA%E5%8B%95%E8%BB%8A%E4%BF%9D%E6%9C%89%E9%96%A2%E4%BF%82%E6%89%8B%E7%B6%9A%E3%81%AE%E3%83%AF%E3%83%B3%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6%E8%BB%8A%E6%A4%9C%E8%A8%BC%E3%81%AE%E4%BD%8F%E6%89%80%E5%A4%89%E6%9B%B4%E3%82%92%E8%A1%8C%E3%81%A3%E3%81%9F%E8%A9%B1/</link>
+      <pubDate>Mon, 27 May 2019 14:35:13 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/%E8%87%AA%E5%8B%95%E8%BB%8A%E4%BF%9D%E6%9C%89%E9%96%A2%E4%BF%82%E6%89%8B%E7%B6%9A%E3%81%AE%E3%83%AF%E3%83%B3%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6%E8%BB%8A%E6%A4%9C%E8%A8%BC%E3%81%AE%E4%BD%8F%E6%89%80%E5%A4%89%E6%9B%B4%E3%82%92%E8%A1%8C%E3%81%A3%E3%81%9F%E8%A9%B1/</guid>
+      <description>&lt;p&gt;自動車保有関係手続のワンストップサービスを利用して車検証の住所変更を行った話。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Macbook Proを買った</title>
+      <link>https://blog.clow.dev/posts/macbook-pro%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F/</link>
+      <pubDate>Sat, 04 Aug 2018 16:11:36 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/macbook-pro%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
+      <description>&lt;p&gt;うれしい。
+15 インチの下位モデルを買った。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kakaku.com/item/K0001071794/&#34;&gt;MacBook Pro Retina ディスプレイ 2200/15.4 MR932J/A&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>車のエンジンが切れない</title>
+      <link>https://blog.clow.dev/posts/%E8%BB%8A%E3%81%AE%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%8C%E5%88%87%E3%82%8C%E3%81%AA%E3%81%84/</link>
+      <pubDate>Sat, 13 Feb 2016 08:46:48 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/%E8%BB%8A%E3%81%AE%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%8C%E5%88%87%E3%82%8C%E3%81%AA%E3%81%84/</guid>
+      <description>プッシュスタートの車にてエンジンが切れない。
+切ろうとしても ACC にいってしまう。
+最初は自分がエンジンの切り方を忘れているだけなのかと思ったら、原因はシフトレバーが完全に P になっていないためだった。
+シフトレバーを動かすためのボタン(なんていうの？)がロックされるまでレバーを奥に倒すと無事切れた。</description>
+    </item>
+    
+    <item>
+      <title>Amazonから沖縄への配達が遅い</title>
+      <link>https://blog.clow.dev/posts/amazon%E3%81%8B%E3%82%89%E6%B2%96%E7%B8%84%E3%81%B8%E3%81%AE%E9%85%8D%E9%81%94%E3%81%8C%E9%81%85%E3%81%84/</link>
+      <pubDate>Fri, 20 Nov 2015 15:32:14 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/amazon%E3%81%8B%E3%82%89%E6%B2%96%E7%B8%84%E3%81%B8%E3%81%AE%E9%85%8D%E9%81%94%E3%81%8C%E9%81%85%E3%81%84/</guid>
+      <description>&lt;p&gt;Nexus 6 は届いていい感じだけど、ケースが届かない。&lt;/p&gt;
+
+&lt;p&gt;以前は 3 日で届いてたけど、最近は遅い気がしてたら、いろいろ理由があるらしい。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MNP、Nexus 6注文</title>
+      <link>https://blog.clow.dev/posts/mnpnexus-6%E6%B3%A8%E6%96%87/</link>
+      <pubDate>Tue, 17 Nov 2015 14:40:19 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/mnpnexus-6%E6%B3%A8%E6%96%87/</guid>
+      <description>&lt;p&gt;今まで、docomo の Xperia Z1 を利用していて、今月で 2 年(更新月)になるので MNP で IIJ mio に移行しました。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on weary site</title>
+    <link>https://blog.clow.dev/categories/</link>
+    <description>Recent content in Categories on weary site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 06 Nov 2019 15:51:25 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.clow.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>雑記</title>
+      <link>https://blog.clow.dev/categories/%E9%9B%91%E8%A8%98/</link>
+      <pubDate>Wed, 06 Nov 2019 15:51:25 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/categories/%E9%9B%91%E8%A8%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ガジェット</title>
+      <link>https://blog.clow.dev/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
+      <pubDate>Sat, 29 Dec 2018 17:59:49 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ゲーム</title>
+      <link>https://blog.clow.dev/categories/%E3%82%B2%E3%83%BC%E3%83%A0/</link>
+      <pubDate>Sat, 29 Dec 2018 17:59:49 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/categories/%E3%82%B2%E3%83%BC%E3%83%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>コンピュータ</title>
+      <link>https://blog.clow.dev/categories/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/</link>
+      <pubDate>Sat, 29 Dec 2018 17:59:49 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/categories/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

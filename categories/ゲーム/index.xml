@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ゲーム on weary site</title>
+    <link>https://blog.clow.dev/categories/%E3%82%B2%E3%83%BC%E3%83%A0/</link>
+    <description>Recent content in ゲーム on weary site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 29 Dec 2018 17:59:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.clow.dev/categories/%E3%82%B2%E3%83%BC%E3%83%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ArduinoをNintendo Switchのコントローラとして動かす</title>
+      <link>https://blog.clow.dev/posts/arduino%E3%82%92nintendo-switch%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%81%A8%E3%81%97%E3%81%A6%E5%8B%95%E3%81%8B%E3%81%99/</link>
+      <pubDate>Sat, 29 Dec 2018 17:59:49 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/arduino%E3%82%92nintendo-switch%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%81%A8%E3%81%97%E3%81%A6%E5%8B%95%E3%81%8B%E3%81%99/</guid>
+      <description>&lt;p&gt;Arduino を Nintendo Switch のコントローラとして動かす方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>むてきてっけん</title>
+      <link>https://blog.clow.dev/posts/%E3%82%80%E3%81%A6%E3%81%8D%E3%81%A6%E3%81%A3%E3%81%91%E3%82%93/</link>
+      <pubDate>Wed, 03 Jun 2015 16:50:34 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/%E3%82%80%E3%81%A6%E3%81%8D%E3%81%A6%E3%81%A3%E3%81%91%E3%82%93/</guid>
+      <description>忍たま乱太郎 GB
+むてきてっけん メモ
+けむはみみま くつつはぬあ きねおうあそ きおたまてた てかのと  </description>
+    </item>
+    
+  </channel>
+</rss>

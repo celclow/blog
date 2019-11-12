@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ボケ防止 on weary site</title>
+    <link>https://blog.clow.dev/tags/%E3%83%9C%E3%82%B1%E9%98%B2%E6%AD%A2/</link>
+    <description>Recent content in ボケ防止 on weary site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 24 Aug 2015 09:44:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.clow.dev/tags/%E3%83%9C%E3%82%B1%E9%98%B2%E6%AD%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows 10にpingが通らない</title>
+      <link>https://blog.clow.dev/posts/windows-10%E3%81%ABping%E3%81%8C%E9%80%9A%E3%82%89%E3%81%AA%E3%81%84/</link>
+      <pubDate>Mon, 24 Aug 2015 09:44:14 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/windows-10%E3%81%ABping%E3%81%8C%E9%80%9A%E3%82%89%E3%81%AA%E3%81%84/</guid>
+      <description>&lt;p&gt;aterm ルータに Windows 10 と OS X Yosemite がぶら下がってる環境で、Windows 向けの ping が通らない。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
