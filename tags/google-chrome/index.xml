@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Chrome on weary site</title>
+    <link>https://blog.clow.dev/tags/google-chrome/</link>
+    <description>Recent content in Google Chrome on weary site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 17 Nov 2019 01:03:41 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.clow.dev/tags/google-chrome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YouTubeの動画を表示しながらコメントを読むことができるGoogle Chrome拡張機能を作成しました</title>
+      <link>https://blog.clow.dev/posts/youtube%E3%81%AE%E5%8B%95%E7%94%BB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E8%AA%AD%E3%82%80%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8Bgoogle-chrome%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sun, 17 Nov 2019 01:03:41 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/youtube%E3%81%AE%E5%8B%95%E7%94%BB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E8%AA%AD%E3%82%80%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8Bgoogle-chrome%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>YouTube の動画を表示しながらコメントを読むことができる Google Chrome 拡張機能を作成しました。
+インストール Youtube sticky player - Chrome ウェブストア
+使い方、ソースコード Youtube sticky player - GitHub</description>
+    </item>
+    
+  </channel>
+</rss>
