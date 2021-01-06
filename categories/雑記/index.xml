@@ -6,11 +6,7 @@
     <description>Recent content in 雑記 on weary site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 06 Nov 2019 15:51:25 +0900</lastBuildDate>
-    
-	<atom:link href="https://blog.clow.dev/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 06 Nov 2019 15:51:25 +0900</lastBuildDate><atom:link href="https://blog.clow.dev/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ブログを移転しました</title>
       <link>https://blog.clow.dev/posts/%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E7%A7%BB%E8%BB%A2%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
@@ -39,8 +35,9 @@ WordPress はしばらくそのままにしておいて、見られてる記事�
       <guid>https://blog.clow.dev/posts/macbook-pro%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;うれしい。
 15 インチの下位モデルを買った。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kakaku.com/item/K0001071794/&#34;&gt;MacBook Pro Retina ディスプレイ 2200/15.4 MR932J/A&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;
+&lt;a href=&#34;http://kakaku.com/item/K0001071794/&#34; target=&#34;_blank&#34;&gt;MacBook Pro Retina ディスプレイ 2200/15.4 MR932J/A&lt;/a&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,7 +59,6 @@ WordPress はしばらくそのままにしておいて、見られてる記事�
       
       <guid>https://blog.clow.dev/posts/amazon%E3%81%8B%E3%82%89%E6%B2%96%E7%B8%84%E3%81%B8%E3%81%AE%E9%85%8D%E9%81%94%E3%81%8C%E9%81%85%E3%81%84/</guid>
       <description>&lt;p&gt;Nexus 6 は届いていい感じだけど、ケースが届かない。&lt;/p&gt;
-
 &lt;p&gt;以前は 3 日で届いてたけど、最近は遅い気がしてたら、いろいろ理由があるらしい。&lt;/p&gt;</description>
     </item>
     

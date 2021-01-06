@@ -6,11 +6,7 @@
     <description>Recent content in Nintendo Switch on weary site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 29 Dec 2018 17:59:49 +0900</lastBuildDate>
-    
-	<atom:link href="https://blog.clow.dev/tags/nintendo-switch/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 29 Dec 2018 17:59:49 +0900</lastBuildDate><atom:link href="https://blog.clow.dev/tags/nintendo-switch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ArduinoをNintendo Switchのコントローラとして動かす</title>
       <link>https://blog.clow.dev/posts/arduino%E3%82%92nintendo-switch%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%81%A8%E3%81%97%E3%81%A6%E5%8B%95%E3%81%8B%E3%81%99/</link>

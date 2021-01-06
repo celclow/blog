@@ -6,11 +6,7 @@
     <description>Recent content in AZIK on weary site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 04 Mar 2013 08:04:27 +0900</lastBuildDate>
-    
-	<atom:link href="https://blog.clow.dev/tags/azik/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 04 Mar 2013 08:04:27 +0900</lastBuildDate><atom:link href="https://blog.clow.dev/tags/azik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google日本語入力用 AZIKローマ字テーブル</title>
       <link>https://blog.clow.dev/posts/google%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E7%94%A8-azik%E3%83%AD%E3%83%BC%E3%83%9E%E5%AD%97%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB/</link>
@@ -18,9 +14,7 @@
       
       <guid>https://blog.clow.dev/posts/google%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E7%94%A8-azik%E3%83%AD%E3%83%BC%E3%83%9E%E5%AD%97%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB/</guid>
       <description>&lt;p&gt;こんなの使う人はマイノリティだと思うけど、&lt;/p&gt;
-
 &lt;p&gt;折角作ったので公開しました。&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://github.com/celclow/azik-romaji-table&#34;&gt;https://github.com/celclow/azik-romaji-table&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

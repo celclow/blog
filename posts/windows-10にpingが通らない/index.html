@@ -14,26 +14,26 @@
   <meta property="og:url" content="https://blog.clow.dev/posts/windows-10%E3%81%ABping%E3%81%8C%E9%80%9A%E3%82%89%E3%81%AA%E3%81%84/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.80.0" />
 
-  <link rel="stylesheet" href="/css/style.css" media="all" />
-  <link rel="stylesheet" href="/css/syntax.css" media="all" />
-  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/custom.css" media="all" />
 
-  <script src="/js/script.js"></script>
-  <script src="/js/custom.js"></script>
-  <script defer src="/js/fontawesome.js"></script>
+  <script src="https://blog.clow.dev/js/script.js"></script>
+  <script src="https://blog.clow.dev/js/custom.js"></script>
+  <script defer src="https://blog.clow.dev/js/fontawesome.js"></script>
 </head>
 
 <body>
 
 <header class="site-header">
   <nav class="site-navi">
-    <h1 class="site-title"><a href="/">weary site</a></h1>
+    <h1 class="site-title"><a href="https://blog.clow.dev/">weary site</a></h1>
     <ul class="site-navi-items">
-      <li class="site-navi-item-categories"><a href="/categories/" title="Categories">Categories</a></li>
-      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
-      <li class="site-navi-item-archives"><a href="/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-categories"><a href="https://blog.clow.dev/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://blog.clow.dev/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://blog.clow.dev/archives/" title="Archives">Archives</a></li>
     </ul>
   </nav>
 </header>
@@ -49,19 +49,19 @@
       <ul class="article-meta">
         <li class="article-meta-date"><time>2015-08-24</time></li>
         <li class="article-meta-categories">
-          <a href="/categories/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/">
+          <a href="https://blog.clow.dev/categories/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/">
             <i class="fas fa-folder"></i>
             コンピュータ
           </a>&nbsp;
         </li>
         <li class="article-meta-tags">
-          <a href="/tags/windows/">
+          <a href="https://blog.clow.dev/tags/windows/">
             <i class="fas fa-tag"></i>
             Windows
           </a>&nbsp;
         </li>
         <li class="article-meta-tags">
-          <a href="/tags/%E3%83%9C%E3%82%B1%E9%98%B2%E6%AD%A2/">
+          <a href="https://blog.clow.dev/tags/%E3%83%9C%E3%82%B1%E9%98%B2%E6%AD%A2/">
             <i class="fas fa-tag"></i>
             ボケ防止
           </a>&nbsp;
@@ -69,38 +69,41 @@
       </ul>
       
       <p>aterm ルータに Windows 10 と OS X Yosemite がぶら下がってる環境で、Windows 向けの ping が通らない。</p>
-
 <p>Windows 側で、以下の 2 点を変更することで解決。</p>
-
 <ul>
 <li>プライベートネットワークに変更
-
 <ul>
 <li>デフォルトがパブリックネットワークになってる？(未確認)</li>
-<li>スタート&gt; 設定 &gt; ネットワークとインターネット &gt; イーサネット<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup> &gt; アイコンをクリック &gt; デバイスとコンテンツの検索のトグル</li>
+<li>スタート&gt; 設定 &gt; ネットワークとインターネット &gt; イーサネット<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> &gt; アイコンをクリック &gt; デバイスとコンテンツの検索のトグル
+<ul>
 <li>オンならプライベートネットワーク、オフならパブリックネットワーク</li>
-</ul></li>
+</ul>
+</li>
+</ul>
+</li>
 <li>ファイアウォールの設定
-
 <ul>
 <li>コントロールパネル &gt; Windows ファイアウォール &gt; 詳細設定</li>
-<li>受信の規制</li>
-<li>ファイルとプリンターの共有 (エコー要求 – ICMPv4<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup> 受信) プロファイル: プライベート, パブリック</li>
-</ul></li>
+<li>受信の規制
+<ul>
+<li>ファイルとプリンターの共有 (エコー要求 – ICMPv4<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> 受信) プロファイル: プライベート, パブリック</li>
 </ul>
-
+</li>
+</ul>
+</li>
+</ul>
 <p>みたいな感じにすると、通るように。</p>
-<div class="footnotes">
-
-<hr />
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:1">有線接続の場合。
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
-<li id="fn:2">IPv6 なひとは ICMPv6 かもしれない。
- <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:1" role="doc-endnote">
+<p>有線接続の場合。 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>IPv6 なひとは ICMPv6 かもしれない。 <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
-</div>
+</section>
     </article>
 
     
@@ -124,10 +127,10 @@
 
     <ul class="pager article-pager">
       <li class="pager-newer">
-          <a href="/posts/mnpnexus-6%E6%B3%A8%E6%96%87/" data-toggle="tooltip" data-placement="top" title="MNP、Nexus 6注文">&lt; Newer</a>
+          <a href="https://blog.clow.dev/posts/mnpnexus-6%E6%B3%A8%E6%96%87/" data-toggle="tooltip" data-placement="top" title="MNP、Nexus 6注文">&lt; Newer</a>
       </li>
       <li class="pager-older">
-        <a href="/posts/%E3%82%80%E3%81%A6%E3%81%8D%E3%81%A6%E3%81%A3%E3%81%91%E3%82%93/" data-toggle="tooltip" data-placement="top" title="むてきてっけん">Older &gt;</a>
+        <a href="https://blog.clow.dev/posts/%E3%82%80%E3%81%A6%E3%81%8D%E3%81%A6%E3%81%A3%E3%81%91%E3%82%93/" data-toggle="tooltip" data-placement="top" title="むてきてっけん">Older &gt;</a>
       </li>
     </ul>
   </div>

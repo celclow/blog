@@ -14,26 +14,26 @@
   <meta property="og:url" content="https://blog.clow.dev/posts/arduino%E3%82%92nintendo-switch%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%81%A8%E3%81%97%E3%81%A6%E5%8B%95%E3%81%8B%E3%81%99/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.80.0" />
 
-  <link rel="stylesheet" href="/css/style.css" media="all" />
-  <link rel="stylesheet" href="/css/syntax.css" media="all" />
-  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/custom.css" media="all" />
 
-  <script src="/js/script.js"></script>
-  <script src="/js/custom.js"></script>
-  <script defer src="/js/fontawesome.js"></script>
+  <script src="https://blog.clow.dev/js/script.js"></script>
+  <script src="https://blog.clow.dev/js/custom.js"></script>
+  <script defer src="https://blog.clow.dev/js/fontawesome.js"></script>
 </head>
 
 <body>
 
 <header class="site-header">
   <nav class="site-navi">
-    <h1 class="site-title"><a href="/">weary site</a></h1>
+    <h1 class="site-title"><a href="https://blog.clow.dev/">weary site</a></h1>
     <ul class="site-navi-items">
-      <li class="site-navi-item-categories"><a href="/categories/" title="Categories">Categories</a></li>
-      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
-      <li class="site-navi-item-archives"><a href="/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-categories"><a href="https://blog.clow.dev/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://blog.clow.dev/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://blog.clow.dev/archives/" title="Archives">Archives</a></li>
     </ul>
   </nav>
 </header>
@@ -49,31 +49,31 @@
       <ul class="article-meta">
         <li class="article-meta-date"><time>2018-12-29</time></li>
         <li class="article-meta-categories">
-          <a href="/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/">
+          <a href="https://blog.clow.dev/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/">
             <i class="fas fa-folder"></i>
             ガジェット
           </a>&nbsp;
         </li>
         <li class="article-meta-categories">
-          <a href="/categories/%E3%82%B2%E3%83%BC%E3%83%A0/">
+          <a href="https://blog.clow.dev/categories/%E3%82%B2%E3%83%BC%E3%83%A0/">
             <i class="fas fa-folder"></i>
             ゲーム
           </a>&nbsp;
         </li>
         <li class="article-meta-categories">
-          <a href="/categories/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/">
+          <a href="https://blog.clow.dev/categories/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/">
             <i class="fas fa-folder"></i>
             コンピュータ
           </a>&nbsp;
         </li>
         <li class="article-meta-tags">
-          <a href="/tags/arduino/">
+          <a href="https://blog.clow.dev/tags/arduino/">
             <i class="fas fa-tag"></i>
             Arduino
           </a>&nbsp;
         </li>
         <li class="article-meta-tags">
-          <a href="/tags/nintendo-switch/">
+          <a href="https://blog.clow.dev/tags/nintendo-switch/">
             <i class="fas fa-tag"></i>
             Nintendo Switch
           </a>&nbsp;
@@ -81,106 +81,89 @@
       </ul>
       
       <p>Arduino を Nintendo Switch のコントローラとして動かす方法。</p>
-
 <h1 id="switch-fightstick-を利用する方法">Switch-Fightstick を利用する方法</h1>
-
-<p><a href="https://github.com/progmem/Switch-Fightstick">Switch-Fightstick</a>というものがある。</p>
-
+<p>
+<a href="https://github.com/progmem/Switch-Fightstick" target="_blank">Switch-Fightstick</a>
+というものがある。</p>
 <ul>
 <li>オリジナルのプロジェクト</li>
 <li>Splatoon 2 で自動ドット打ちをしてくれるプロジェクト</li>
 <li>ゼルダの雪玉ボウリングを自動化してくれるプロジェクト</li>
 </ul>
-
-<p>全部同じプロジェクト名なので注意が必要。<br />
+<p>全部同じプロジェクト名なので注意が必要。<br>
 しかし、オリジナルのプロジェクトを fork して、それぞれの機能を付与しているだけなので、コアの部分は同じである。</p>
-
 <p>色んな人が解説しているので、そちらを参照。</p>
-
 <ul>
-<li><a href="http://takashiski.hatenablog.com/entry/2017/09/13/012738">splatoon2 用ドット打ち機(atmega32u4)</a></li>
-<li><a href="http://esprog.hatenablog.com/entry/2017/08/19/001717">Splatoon2 で自動ドット打ちしてくれるやつ試した</a></li>
+<li>
+<a href="http://takashiski.hatenablog.com/entry/2017/09/13/012738" target="_blank">splatoon2 用ドット打ち機(atmega32u4)</a>
+</li>
+<li>
+<a href="http://esprog.hatenablog.com/entry/2017/08/19/001717" target="_blank">Splatoon2 で自動ドット打ちしてくれるやつ試した</a>
+</li>
 </ul>
-
 <p>Arduino で使う場合は、AVR として使うため、Arduino の書き方や資産が利用できないので注意。</p>
-
 <h1 id="switch-arduino-joystick-を利用する方法">Switch-Arduino-Joystick を利用する方法</h1>
-
-<p><a href="https://github.com/pedroslopez/Switch-Arduino-Joystick">Switch-Arduino-Joystick</a>というものがある。</p>
-
-<p>こちらは多分未完成か、利用方法を説明していない。<br />
+<p>
+<a href="https://github.com/pedroslopez/Switch-Arduino-Joystick" target="_blank">Switch-Arduino-Joystick</a>
+というものがある。</p>
+<p>こちらは多分未完成か、利用方法を説明していない。<br>
 使えるようにまでなったのでメモ書き程度に記載する。</p>
-
 <h2 id="前提">前提</h2>
-
 <ul>
 <li>リバースエンジニアリングをしているわけではないため、予想を含みます。</li>
 <li>マイコン歴も 10 日たらずで HID も全然わからないため、おかしなことを言っている可能性があります。</li>
 </ul>
-
 <h2 id="switch-に認識させる条件">Switch に認識させる条件</h2>
-
 <ul>
 <li>USB Host 機能を持つ Arduino(互換機)であること。</li>
 <li>Switch が認識する PID,VID とすること。</li>
 <li>デバイスの HID Report Descriptor は無視され、Switch が PID,VID をもとに HID Report Descriptor を指定している。(たぶん)
-
 <ul>
 <li>試しにデバイス(Arduino)の HID Report Descriptor で Button などを一切配置せずとも Switch を動かすことができる。</li>
 <li>ちなみに、プロコン自体に入っている HID Report Descriptor と Switch が指定する HID Report Descriptor が違うためか、この記事の方法ではプロコンの HID Report Descriptor を利用して、Switch に認識させることはできなかった。</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h2 id="switch-arduino-joystick-を認識させるために">Switch-Arduino-Joystick を認識させるために</h2>
-
 <ul>
 <li>Switch-Fightstick も Switch-Arduino-Joystick もポッ拳プロコンの HID Report Descriptor を使用している。</li>
 <li>ポッ拳プロコンの HID Report Descriptor を使用する場合、PID,VID をポッ拳プロコンのものとすること。(下記「PID,VID の変更」参照)</li>
 <li>ポッ拳プロコンの HID Report Descriptor を利用する場合、REPORT ID がないため、Arduino 標準の <code>HID().SendReport(uint8_t id, const void* data, int len)</code>が利用できない点に注意。(下記「SendReport()の改変」参照)</li>
 </ul>
-
-<h2 id="pid-vid-の変更">PID,VID の変更</h2>
-
+<h2 id="pidvid-の変更">PID,VID の変更</h2>
 <p>SparkFun のボードを利用している場合。</p>
-
 <p><code>~/Library/Arduino15/packages/SparkFun/hardware/avr/1.1.12/boards.txt</code>
 を開き、利用しているボードの*.build.vid, *.build.pid を変更する。</p>
-
-<h2 id="sendreport-の改変">SendReport()の改変</h2>
-
-<p>ポッ拳プロコンの HID Report Descriptor は、REPORT ID が記載されていない。<br />
+<h2 id="sendreportの改変">SendReport()の改変</h2>
+<p>ポッ拳プロコンの HID Report Descriptor は、REPORT ID が記載されていない。<br>
 <code>HID().SendReport()</code>の引数は(<strong>uint8_t id</strong>, const void* data, int len)であるため、先頭 1byte は id の送信に固定されている。
 <code>/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/HID/src/HID.h</code>
 を下記の改変を行うことで回避する。</p>
-
 <ul>
-<li><p>HID.cpp(改変前)</p>
+<li>HID.cpp(改変前)</li>
+</ul>
 <div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="n">HID_</span><span class="o">::</span><span class="n">SendReport</span><span class="p">(</span><span class="kt">uint8_t</span> <span class="n">id</span><span class="p">,</span> <span class="k">const</span> <span class="kt">void</span><span class="o">*</span> <span class="n">data</span><span class="p">,</span> <span class="kt">int</span> <span class="n">len</span><span class="p">)</span>
-<span class="p">{</span>
- <span class="k">auto</span> <span class="n">ret</span> <span class="o">=</span> <span class="n">USB_Send</span><span class="p">(</span><span class="n">pluggedEndpoint</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">id</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
- <span class="k">if</span> <span class="p">(</span><span class="n">ret</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">ret</span><span class="p">;</span>
- <span class="k">auto</span> <span class="n">ret2</span> <span class="o">=</span> <span class="n">USB_Send</span><span class="p">(</span><span class="n">pluggedEndpoint</span> <span class="o">|</span> <span class="n">TRANSFER_RELEASE</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">len</span><span class="p">);</span>
- <span class="k">if</span> <span class="p">(</span><span class="n">ret2</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">ret2</span><span class="p">;</span>
- <span class="k">return</span> <span class="n">ret</span> <span class="o">+</span> <span class="n">ret2</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></li>
-
-<li><p>HID.cpp(改変後)</p>
+ <span class="p">{</span>
+     <span class="k">auto</span> <span class="n">ret</span> <span class="o">=</span> <span class="n">USB_Send</span><span class="p">(</span><span class="n">pluggedEndpoint</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">id</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+     <span class="k">if</span> <span class="p">(</span><span class="n">ret</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">ret</span><span class="p">;</span>
+     <span class="k">auto</span> <span class="n">ret2</span> <span class="o">=</span> <span class="n">USB_Send</span><span class="p">(</span><span class="n">pluggedEndpoint</span> <span class="o">|</span> <span class="n">TRANSFER_RELEASE</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">len</span><span class="p">);</span>
+     <span class="k">if</span> <span class="p">(</span><span class="n">ret2</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">ret2</span><span class="p">;</span>
+     <span class="k">return</span> <span class="n">ret</span> <span class="o">+</span> <span class="n">ret2</span><span class="p">;</span>
+ <span class="p">}</span>
+</code></pre></div><ul>
+<li>HID.cpp(改変後)</li>
+</ul>
 <div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="n">HID_</span><span class="o">::</span><span class="n">SendReport</span><span class="p">(</span><span class="kt">uint8_t</span> <span class="n">id</span><span class="p">,</span> <span class="k">const</span> <span class="kt">void</span><span class="o">*</span> <span class="n">data</span><span class="p">,</span> <span class="kt">int</span> <span class="n">len</span><span class="p">)</span>
-<span class="p">{</span>
+ <span class="p">{</span>
 <span class="c1">//     auto ret = USB_Send(pluggedEndpoint, &amp;id, 1);
 </span><span class="c1">//     if (ret &amp;lt; 0) return ret;
-</span><span class="c1"></span> <span class="k">auto</span> <span class="n">ret2</span> <span class="o">=</span> <span class="n">USB_Send</span><span class="p">(</span><span class="n">pluggedEndpoint</span> <span class="o">|</span> <span class="n">TRANSFER_RELEASE</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">len</span><span class="p">);</span>
- <span class="k">if</span> <span class="p">(</span><span class="n">ret2</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">ret2</span><span class="p">;</span>
+</span><span class="c1"></span>     <span class="k">auto</span> <span class="n">ret2</span> <span class="o">=</span> <span class="n">USB_Send</span><span class="p">(</span><span class="n">pluggedEndpoint</span> <span class="o">|</span> <span class="n">TRANSFER_RELEASE</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">len</span><span class="p">);</span>
+     <span class="k">if</span> <span class="p">(</span><span class="n">ret2</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">ret2</span><span class="p">;</span>
 <span class="c1">//     return ret + ret2;
-</span><span class="c1"></span> <span class="k">return</span> <span class="n">ret2</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></li>
-</ul>
-
-<p>上記手順にて、Arduino を Switch に認識させる事ができる。</p>
-
-<p>全面コードを書き直して、新規ライブラリとして作成しました。<br />
+</span><span class="c1"></span>     <span class="k">return</span> <span class="n">ret2</span><span class="p">;</span>
+ <span class="p">}</span>
+</code></pre></div><p>上記手順にて、Arduino を Switch に認識させる事ができる。</p>
+<p>全面コードを書き直して、新規ライブラリとして作成しました。<br>
 <a href="https://github.com/celclow/SwitchControlLibrary">https://github.com/celclow/SwitchControlLibrary</a></p>
     </article>
 
@@ -205,10 +188,10 @@
 
     <ul class="pager article-pager">
       <li class="pager-newer">
-          <a href="/posts/%E8%87%AA%E5%8B%95%E8%BB%8A%E4%BF%9D%E6%9C%89%E9%96%A2%E4%BF%82%E6%89%8B%E7%B6%9A%E3%81%AE%E3%83%AF%E3%83%B3%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6%E8%BB%8A%E6%A4%9C%E8%A8%BC%E3%81%AE%E4%BD%8F%E6%89%80%E5%A4%89%E6%9B%B4%E3%82%92%E8%A1%8C%E3%81%A3%E3%81%9F%E8%A9%B1/" data-toggle="tooltip" data-placement="top" title="自動車保有関係手続のワンストップサービスを利用して車検証の住所変更を行った話">&lt; Newer</a>
+          <a href="https://blog.clow.dev/posts/%E8%87%AA%E5%8B%95%E8%BB%8A%E4%BF%9D%E6%9C%89%E9%96%A2%E4%BF%82%E6%89%8B%E7%B6%9A%E3%81%AE%E3%83%AF%E3%83%B3%E3%82%B9%E3%83%88%E3%83%83%E3%83%97%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6%E8%BB%8A%E6%A4%9C%E8%A8%BC%E3%81%AE%E4%BD%8F%E6%89%80%E5%A4%89%E6%9B%B4%E3%82%92%E8%A1%8C%E3%81%A3%E3%81%9F%E8%A9%B1/" data-toggle="tooltip" data-placement="top" title="自動車保有関係手続のワンストップサービスを利用して車検証の住所変更を行った話">&lt; Newer</a>
       </li>
       <li class="pager-older">
-        <a href="/posts/macbook-pro%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F/" data-toggle="tooltip" data-placement="top" title="Macbook Proを買った">Older &gt;</a>
+        <a href="https://blog.clow.dev/posts/macbook-pro%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F/" data-toggle="tooltip" data-placement="top" title="Macbook Proを買った">Older &gt;</a>
       </li>
     </ul>
   </div>

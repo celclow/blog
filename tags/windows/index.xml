@@ -6,11 +6,7 @@
     <description>Recent content in Windows on weary site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 24 Aug 2015 09:44:14 +0900</lastBuildDate>
-    
-	<atom:link href="https://blog.clow.dev/tags/windows/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 24 Aug 2015 09:44:14 +0900</lastBuildDate><atom:link href="https://blog.clow.dev/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows 10にpingが通らない</title>
       <link>https://blog.clow.dev/posts/windows-10%E3%81%ABping%E3%81%8C%E9%80%9A%E3%82%89%E3%81%AA%E3%81%84/</link>

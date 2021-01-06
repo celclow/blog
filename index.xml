@@ -6,10 +6,25 @@
     <description>Recent content on weary site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 17 Nov 2019 01:03:41 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 01:30:00 +0900</lastBuildDate><atom:link href="https://blog.clow.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Razer Huntsman MiniのHypershiftで割り当てできないキーを上書きする</title>
+      <link>https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/</link>
+      <pubDate>Wed, 06 Jan 2021 01:30:00 +0900</pubDate>
+      
+      <guid>https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/</guid>
+      <description>&lt;p&gt;Razer Huntsman Mini では Synapse 3 を利用して、Fn キーのコンビネーションをカスタマイズすることが可能です（Hypershift）。しかし、Hypershift では、デフォルトで割り当てされていないキーを対象としており、デフォルトで割り当てされているキーについては上書きすることができません。&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/1.png&#34;&gt;&lt;figure&gt;
+    &lt;img style=&#34;width: 100%; height: 260px; object-fit: contain; background-color: #eee;&#34; src=&#34;https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/1.png&#34; alt=&#34;Fn&amp;#43;Hにはバックライト&amp;#43;が設定されていて、割り当てできない&#34; title=&#34;Fn&amp;#43;Hにはバックライト&amp;#43;が設定されていて、割り当てできない&#34;&gt;
     
-	<atom:link href="https://blog.clow.dev/index.xml" rel="self" type="application/rss+xml" />
-    
+    &lt;figcaption style=&#34;font-weight: bold;&#34;&gt;Fn&amp;#43;Hにはバックライト&amp;#43;が設定されていて、割り当てできない&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;しかし、設定ファイルを書き換えることにより、デフォルトで割り当てられているキーについても無理矢理上書きすることが可能です。&lt;/p&gt;
+&lt;p&gt;公式の手順外の操作を行うため、すべて自己責任でお願いします。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>YouTubeの動画を表示しながらコメントを読むことができるGoogle Chrome拡張機能を作成しました</title>
@@ -18,8 +33,7 @@
       
       <guid>https://blog.clow.dev/posts/youtube%E3%81%AE%E5%8B%95%E7%94%BB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E8%AA%AD%E3%82%80%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8Bgoogle-chrome%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
       <description>YouTube の動画を表示しながらコメントを読むことができる Google Chrome 拡張機能を作成しました。
-インストール Youtube sticky player - Chrome ウェブストア
-使い方、ソースコード Youtube sticky player - GitHub</description>
+インストール  Youtube sticky player - Chrome ウェブストア 使い方、ソースコード  Youtube sticky player - GitHub </description>
     </item>
     
     <item>
@@ -59,8 +73,9 @@ WordPress はしばらくそのままにしておいて、見られてる記事�
       <guid>https://blog.clow.dev/posts/macbook-pro%E3%82%92%E8%B2%B7%E3%81%A3%E3%81%9F/</guid>
       <description>&lt;p&gt;うれしい。
 15 インチの下位モデルを買った。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kakaku.com/item/K0001071794/&#34;&gt;MacBook Pro Retina ディスプレイ 2200/15.4 MR932J/A&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;
+&lt;a href=&#34;http://kakaku.com/item/K0001071794/&#34; target=&#34;_blank&#34;&gt;MacBook Pro Retina ディスプレイ 2200/15.4 MR932J/A&lt;/a&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -82,7 +97,6 @@ WordPress はしばらくそのままにしておいて、見られてる記事�
       
       <guid>https://blog.clow.dev/posts/amazon%E3%81%8B%E3%82%89%E6%B2%96%E7%B8%84%E3%81%B8%E3%81%AE%E9%85%8D%E9%81%94%E3%81%8C%E9%81%85%E3%81%84/</guid>
       <description>&lt;p&gt;Nexus 6 は届いていい感じだけど、ケースが届かない。&lt;/p&gt;
-
 &lt;p&gt;以前は 3 日で届いてたけど、最近は遅い気がしてたら、いろいろ理由があるらしい。&lt;/p&gt;</description>
     </item>
     
@@ -112,7 +126,7 @@ WordPress はしばらくそのままにしておいて、見られてる記事�
       <guid>https://blog.clow.dev/posts/%E3%82%80%E3%81%A6%E3%81%8D%E3%81%A6%E3%81%A3%E3%81%91%E3%82%93/</guid>
       <description>忍たま乱太郎 GB
 むてきてっけん メモ
-けむはみみま くつつはぬあ きねおうあそ きおたまてた てかのと  </description>
+けむはみみま くつつはぬあ きねおうあそ きおたまてた てかのと </description>
     </item>
     
     <item>
@@ -122,9 +136,7 @@ WordPress はしばらくそのままにしておいて、見られてる記事�
       
       <guid>https://blog.clow.dev/posts/google%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E7%94%A8-azik%E3%83%AD%E3%83%BC%E3%83%9E%E5%AD%97%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB/</guid>
       <description>&lt;p&gt;こんなの使う人はマイノリティだと思うけど、&lt;/p&gt;
-
 &lt;p&gt;折角作ったので公開しました。&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://github.com/celclow/azik-romaji-table&#34;&gt;https://github.com/celclow/azik-romaji-table&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

@@ -5,10 +5,6 @@
     <link>https://blog.clow.dev/archives/</link>
     <description>Recent content in Archives on weary site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    
-	<atom:link href="https://blog.clow.dev/archives/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>ja-jp</language><atom:link href="https://blog.clow.dev/archives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

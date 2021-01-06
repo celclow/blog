@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Razer Huntsman MiniのHypershiftで割り当てできないキーを上書きする - weary site</title>
+  <meta property="og:title" content="Razer Huntsman MiniのHypershiftで割り当てできないキーを上書きする - weary site" />
+  <meta name="twitter:title" content="Razer Huntsman MiniのHypershiftで割り当てできないキーを上書きする - weary site" />
+  <meta name="description" content="Razer Huntsman Mini では Synapse 3 を利用して、Fn キーのコンビネーションをカスタマイズすることが可能です（Hypershift）。しかし、Hypershift では、デフォルトで割り当てされていないキーを対象としており、デフォルトで割り当てされているキーについては上書きすることができません。
+
+
+    
+    
+    Fn&#43;Hにはバックライト&#43;が設定されていて、割り当てできない
+    
+
+
+しかし、設定ファイルを書き換えることにより、デフォルトで割り当てられているキーについても無理矢理上書きすることが可能です。
+公式の手順外の操作を行うため、すべて自己責任でお願いします。">
+  <meta property="og:description" content="Razer Huntsman Mini では Synapse 3 を利用して、Fn キーのコンビネーションをカスタマイズすることが可能です（Hypershift）。しかし、Hypershift では、デフォルトで割り当てされていないキーを対象としており、デフォルトで割り当てされているキーについては上書きすることができません。
+
+
+    
+    
+    Fn&#43;Hにはバックライト&#43;が設定されていて、割り当てできない
+    
+
+
+しかし、設定ファイルを書き換えることにより、デフォルトで割り当てられているキーについても無理矢理上書きすることが可能です。
+公式の手順外の操作を行うため、すべて自己責任でお願いします。">
+  <meta name="twitter:description" content="Razer Huntsman Mini では Synapse 3 を利用して、Fn キーのコンビネーションをカスタマイズすることが可能です（Hypershift）。しかし、Hypershift では、デフォルトで割り当てされていないキーを対象としており、デフォルトで割り当てされているキーについては上書きすることができません。
+
+
+    
+    
+    Fn&#43;Hにはバックライ …">
+  <meta name="author" content="celclow"/>
+  <meta property="og:site_name" content="weary site" />
+  <meta property="og:url" content="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <link rel="stylesheet" href="https://blog.clow.dev/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://blog.clow.dev/css/custom.css" media="all" />
+
+  <script src="https://blog.clow.dev/js/script.js"></script>
+  <script src="https://blog.clow.dev/js/custom.js"></script>
+  <script defer src="https://blog.clow.dev/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://blog.clow.dev/">weary site</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="https://blog.clow.dev/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://blog.clow.dev/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://blog.clow.dev/archives/" title="Archives">Archives</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">Razer Huntsman MiniのHypershiftで割り当てできないキーを上書きする</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>2021-01-06</time></li>
+        <li class="article-meta-categories">
+          <a href="https://blog.clow.dev/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/">
+            <i class="fas fa-folder"></i>
+            ガジェット
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-categories">
+          <a href="https://blog.clow.dev/categories/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF/">
+            <i class="fas fa-folder"></i>
+            コンピュータ
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://blog.clow.dev/tags/razer-huntsman-mini/">
+            <i class="fas fa-tag"></i>
+            Razer Huntsman Mini
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+      <p>Razer Huntsman Mini では Synapse 3 を利用して、Fn キーのコンビネーションをカスタマイズすることが可能です（Hypershift）。しかし、Hypershift では、デフォルトで割り当てされていないキーを対象としており、デフォルトで割り当てされているキーについては上書きすることができません。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/1.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/1.png" alt="Fn&#43;Hにはバックライト&#43;が設定されていて、割り当てできない" title="Fn&#43;Hにはバックライト&#43;が設定されていて、割り当てできない">
+    
+    <figcaption style="font-weight: bold;">Fn&#43;Hにはバックライト&#43;が設定されていて、割り当てできない</figcaption>
+    </figure>
+</a>
+</p>
+<p>しかし、設定ファイルを書き換えることにより、デフォルトで割り当てられているキーについても無理矢理上書きすることが可能です。</p>
+<p>公式の手順外の操作を行うため、すべて自己責任でお願いします。</p>
+<h1 id="概要">概要</h1>
+<ul>
+<li>プロファイルのエクスポート機能を利用することで、プロファイルを保存する事が可能です。</li>
+<li>プロファイルは zip 形式で圧縮されており、展開すると xml ファイルに設定が記載されています。</li>
+<li>この xml ファイルを書き換え、プロファイルをインポートすることで、Hypershift で割り当てできないキーについても割り当てすることが可能です。</li>
+</ul>
+<h1 id="手順">手順</h1>
+<p>ここでは、<code>Fn+H</code> <code>Fn+J</code> <code>Fn+K</code> <code>Fn+L</code> に対し、それぞれ <code>←</code> <code>↓</code> <code>↑</code> <code>→</code> を割り当てる手順を示します。</p>
+<ol>
+<li>
+<p>Synapse にて、カスタマイズを一切行っていないプロファイル「Default」を作成します。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/2.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/2.png" alt="Defaultのカスタマイズ" title="Defaultのカスタマイズ">
+    
+    <figcaption style="font-weight: bold;">Defaultのカスタマイズ</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+<li>
+<p>カスタマイズを行うプロファイル「Custom」を作成し、Hypershift に割り当てたい機能を、Hypershift ではなく標準キーに割り当てます。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/3.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/3.png" alt="Customのカスタマイズ" title="Customのカスタマイズ">
+    
+    <figcaption style="font-weight: bold;">Customのカスタマイズ</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+<li>
+<p>プロファイルのエクスポート機能より、手順 1,2 で作成した <code>Custom</code> <code>Default</code> にチェックをいれ、エクスポートを行います。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/4.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/4.png" alt="エクスポートするプロファイル" title="エクスポートするプロファイル">
+    
+    <figcaption style="font-weight: bold;">エクスポートするプロファイル</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+<li>
+<p>エクスポートしたプロファイルに拡張子 <code>.zip</code> を付与し、展開します。
+<code>Features</code> フォルダ配下に、UUID 形式のフォルダが 2 つ存在しますが、 <code>Default</code> <code>Custom</code> プロファイルに相当します。
+また、 <code>Profiles/&lt;UUID&gt;.xml</code> ファイルを開くと、 <code>Name</code> タグにプロファイル名が記載されています。これにより UUID とプロファイルを紐付けることが可能です。</p>
+</li>
+<li>
+<p><code>Custom</code> プロファイルの <code>Features/&lt;Custom Profile UUID&gt;/762555eb-82f2-4fa6-9741-e009d579f188.xml</code> ファイルを開き、標準の <code>H</code> の設定に対応する Mapping タグを探します。</p>
+<p>探すときは <code>Default</code> プロファイルとの差分を取るとわかりやすいです。見つけたら、 <code>IsDefault</code> <code>KeyGroup</code> タグをコピーします。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/5.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/5.png" alt="Default, Custom の Diff（標準の設定箇所）" title="Default, Custom の Diff（標準の設定箇所）">
+    
+    <figcaption style="font-weight: bold;">Default, Custom の Diff（標準の設定箇所）</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+<li>
+<p>同じファイルにて、Hypershift の <code>H</code> の設定に対応する Mapping タグを探します。</p>
+<p>標準のカスタマイズと違い、 <code>IsHyperShift</code> タグが <code>true</code> になっています。見つけたら、 <code>IsDefault</code> <code>KeyGroup</code> タグをペーストします。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/6.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/6.png" alt="Default, Custom の Diff（Hypershiftの設定箇所）" title="Default, Custom の Diff（Hypershiftの設定箇所）">
+    
+    <figcaption style="font-weight: bold;">Default, Custom の Diff（Hypershiftの設定箇所）</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+<li>
+<p><code>J</code> <code>K</code> <code>L</code> の定義についても同様に設定します。</p>
+</li>
+<li>
+<p>展開したファイルのディレクトリ構造を保つように、zip 形式に圧縮します。zip ファイル直下が単一フォルダーにならないように注意してください。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/7.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/7.png" alt="zipファイルの圧縮例" title="zipファイルの圧縮例">
+    
+    <figcaption style="font-weight: bold;">zipファイルの圧縮例</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+<li>
+<p>手順 7 で作成した zip ファイルの拡張子を <code>synapse3</code> に変更し、Sypnase にて、プロファイル <code>Custom</code> をインポートします。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/8.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/8.png" alt="インポートするプロファイル" title="インポートするプロファイル">
+    
+    <figcaption style="font-weight: bold;">インポートするプロファイル</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+<li>
+<p>プロファイル <code>Custom</code> を確認すると、Hypershift に割り当てられたことが確認できます。標準キーについては GUI 上で元に戻せば完了です。</p>
+<p>
+<a href="https://blog.clow.dev/posts/razer-huntsman-mini%e3%81%aehypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b/9.png"><figure>
+    <img style="width: 100%; height: 260px; object-fit: contain; background-color: #eee;" src="https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/9.png" alt="Customのカスタマイズ（設定後）" title="Customのカスタマイズ（設定後）">
+    
+    <figcaption style="font-weight: bold;">Customのカスタマイズ（設定後）</figcaption>
+    </figure>
+</a>
+</p>
+</li>
+</ol>
+<h1 id="その他の方法">その他の方法</h1>
+<h2 id="microsoft-powertoys">Microsoft PowerToys</h2>
+<p>
+<a href="https://github.com/microsoft/PowerToys" target="_blank">Microsoft PowerToys</a>
+にて、ショートカットをリマップすることが可能です。 <code>Fn</code> キーをリマップすることはできませんが、Synapse にて、 <code>Fn</code> キーを <code>Left Ctrl</code>、 <code>Left Ctrl</code> を <code>Right Ctrl</code> に変更し、PowerToys 上で <code>Left Ctrl</code> のショートカットキーを設定すると同様のことが可能です。</p>
+    </article>
+
+    
+<ul class="article-share">
+  <li>
+    
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://blog.clow.dev/posts/razer-huntsman-mini%E3%81%AEhypershift%E3%81%A7%E5%89%B2%E3%82%8A%E5%BD%93%E3%81%A6%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%82%AD%E3%83%BC%E3%82%92%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%81%99%E3%82%8B/" target="_blank" rel="noopener" aria-label="Facebook">
+      <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></div>Facebook</div>
+    </a>
+  </li>
+  <li>
+    
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Razer%20Huntsman%20Mini%e3%81%aeHypershift%e3%81%a7%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e3%82%ad%e3%83%bc%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%99%e3%82%8b%20-%20weary%20site&amp;url=https://blog.clow.dev/posts/razer-huntsman-mini%25E3%2581%25AEhypershift%25E3%2581%25A7%25E5%2589%25B2%25E3%2582%258A%25E5%25BD%2593%25E3%2581%25A6%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25AA%25E3%2581%2584%25E3%2582%25AD%25E3%2583%25BC%25E3%2582%2592%25E4%25B8%258A%25E6%259B%25B8%25E3%2581%258D%25E3%2581%2599%25E3%2582%258B/" target="_blank" rel="noopener" aria-label="Twitter">
+      <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg></div>Twitter</div>
+    </a>
+  </li>
+</ul>
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older">
+        <a href="https://blog.clow.dev/posts/youtube%E3%81%AE%E5%8B%95%E7%94%BB%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E8%AA%AD%E3%82%80%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8Bgoogle-chrome%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/" data-toggle="tooltip" data-placement="top" title="YouTubeの動画を表示しながらコメントを読むことができるGoogle Chrome拡張機能を作成しました">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright"></div>
+  <ul class="site-footer-items">
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-151866756-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+</html>
